@@ -11,7 +11,7 @@ NEWS = open(os.path.join(here, "NEWS.rst"), encoding="utf-8").read()
 version = "0.4.1"
 
 install_requires = [
-    "prettytable<1",
+    "prettytable<1.2",
     "ipython>=1.0",
     "sqlalchemy>=0.6.7",
     "sqlparse",
